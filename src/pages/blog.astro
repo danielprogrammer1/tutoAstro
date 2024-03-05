@@ -1,4 +1,5 @@
 ---
+const pageTitle = "El blog";
 ---
 
 <html lang="es">
@@ -13,8 +14,14 @@
 		<a href="/">Inicio</a>
         <a href="/about/">Sobre mi</a>
         <a href="/blog/">Blog</a>
-		<h1>Astro blog</h1>
+		<h1>{pageTitle}</h1>
 		<h1>Mi blog de Astro aprendizaje</h1>
         <p>Aquí es donde publicaré sobre mi viaje de aprendizaje Astro.</p>
+
+        <ul>
+            <li><a href="/posts/post-1/">Primer post</a></li>
+            <li><a href="/posts/post-2/">Segundo post</a></li>
+            <li><a href="/posts/post-3/">Tercero post</a></li>
+        </ul>
 	</body>
 </html>
